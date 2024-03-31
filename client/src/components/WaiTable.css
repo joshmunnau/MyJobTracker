@@ -1,0 +1,75 @@
+.table-container {
+  margin: 10px auto; /* Center container and keep margin */
+  width: 50%; /* Adjust based on your preference */
+  overflow-x: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  border: none; /* Remove black border */
+  border-radius: 6px; /* Adds rounded corners */
+  background-color: #f9f9f9;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    width: 95%; /* Adjust width to less than 100% */
+    margin: 5px; /* Add horizontal margins */
+  }
+
+  table,
+  th,
+  td {
+    font-size: 12px; /* Decrease font size */
+    padding: 2px; /* Reduce padding to save space */
+  }
+}
+
+.wai-button {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(213, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.com-button {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(0, 225, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically (if needed) */
+  gap: 20px; /* Adjust the space between the buttons */
+  margin-top: 20px; /* Space between the table and the buttons */
+}
+
+.complete-button {
+  width: 175px;
+}
+.Waiting-button {
+  width: 175px;
+  align-items: center;
+}

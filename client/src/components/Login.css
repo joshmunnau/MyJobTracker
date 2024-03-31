@@ -1,0 +1,74 @@
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Add this if you want the entire container centered vertically */
+  min-height: 100vh; /* This makes sure the container takes at least the full height of the viewport */
+  padding-top: 20px; /* Adds some space on the top, adjust as needed */
+}
+
+.add-job-button {
+  width: 200px; /* Set the desired width */
+  margin: 20px auto; /* Center the button */
+  display: block; /* Ensure it's block level for margin auto to work */
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Adjust based on your preference */
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the children (inputs) horizontally */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="radio"] + label,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  color: #000000;
+}
+
+.status-label.wai,
+.status-label.com {
+  color: #000000; /* Text color */
+  border: none;
+}
+
+button {
+  background-color: #000000; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+/* Style for the labels of radio buttons for better UI */
+input[type="radio"] {
+  margin-right: 5px;
+  color: #000000;
+}
+
+label {
+  margin-right: 15px;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 85%; /* Adjust width to less than 100% */
+    margin: 5px; /* Add horizontal margins */
+  }
+}

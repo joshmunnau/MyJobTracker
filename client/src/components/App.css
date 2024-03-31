@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to right, #b8b8b8, #e4e4e4);
+  color: #000000; /* Ensures text is readable on the dark background */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Adjust this as needed */
+  gap: 10px; /* Space between buttons */
+}
+
+.action-button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  width: 150px;
+  /* Add any additional styles for the buttons here */
+}

@@ -1,0 +1,49 @@
+/* Header.css */
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0 20px;
+  color: white;
+  height: 60px; /* Adjust the height as needed */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-bottom: 40px;
+}
+
+.logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button-group1 {
+  display: flex;
+  margin-left: 400px;
+  gap: 10px; /* Adjust the space between buttons */
+}
+.nav-button-group2 {
+  display: flex;
+  margin-right: 400px;
+  gap: 10px; /* Adjust the space between buttons */
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar-logo {
+  width: 110px;
+  height: 30px;
+}
