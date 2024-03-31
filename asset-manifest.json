@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MyJobTracker/static/css/main.32e9be1d.css",
-    "main.js": "/MyJobTracker/static/js/main.55e76380.js",
+    "main.js": "/MyJobTracker/static/js/main.b3af78bd.js",
     "static/js/453.419a5d54.chunk.js": "/MyJobTracker/static/js/453.419a5d54.chunk.js",
     "static/media/fplogo.png": "/MyJobTracker/static/media/fplogo.db03cc2b35a980580e5a.png",
     "index.html": "/MyJobTracker/index.html",
     "main.32e9be1d.css.map": "/MyJobTracker/static/css/main.32e9be1d.css.map",
-    "main.55e76380.js.map": "/MyJobTracker/static/js/main.55e76380.js.map",
+    "main.b3af78bd.js.map": "/MyJobTracker/static/js/main.b3af78bd.js.map",
     "453.419a5d54.chunk.js.map": "/MyJobTracker/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32e9be1d.css",
-    "static/js/main.55e76380.js"
+    "static/js/main.b3af78bd.js"
   ]
 }
