@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/your-repository-name/static/css/main.32e9be1d.css",
-    "main.js": "/your-repository-name/static/js/main.cff622bb.js",
-    "static/js/453.419a5d54.chunk.js": "/your-repository-name/static/js/453.419a5d54.chunk.js",
-    "static/media/fplogo.png": "/your-repository-name/static/media/fplogo.db03cc2b35a980580e5a.png",
-    "index.html": "/your-repository-name/index.html",
-    "main.32e9be1d.css.map": "/your-repository-name/static/css/main.32e9be1d.css.map",
-    "main.cff622bb.js.map": "/your-repository-name/static/js/main.cff622bb.js.map",
-    "453.419a5d54.chunk.js.map": "/your-repository-name/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/MyJobTracker/static/css/main.32e9be1d.css",
+    "main.js": "/MyJobTracker/static/js/main.55e76380.js",
+    "static/js/453.419a5d54.chunk.js": "/MyJobTracker/static/js/453.419a5d54.chunk.js",
+    "static/media/fplogo.png": "/MyJobTracker/static/media/fplogo.db03cc2b35a980580e5a.png",
+    "index.html": "/MyJobTracker/index.html",
+    "main.32e9be1d.css.map": "/MyJobTracker/static/css/main.32e9be1d.css.map",
+    "main.55e76380.js.map": "/MyJobTracker/static/js/main.55e76380.js.map",
+    "453.419a5d54.chunk.js.map": "/MyJobTracker/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32e9be1d.css",
-    "static/js/main.cff622bb.js"
+    "static/js/main.55e76380.js"
   ]
 }
